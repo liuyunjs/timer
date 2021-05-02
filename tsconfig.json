@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "target": "es5",
+    "watch": false,
+    "alwaysStrict": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es5", "es6", "dom"],
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "outDir": "lib",
+    "baseUrl": "./",
+    "jsx": "react"
+  },
+  "exclude": ["node_modules"]
+}

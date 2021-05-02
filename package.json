@@ -1,0 +1,22 @@
+{
+  "name": "@liuyunjs/timer",
+  "version": "1.0.0-beta1",
+  "description": "定时器的封装",
+  "author": "liuyunjs",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "private": false,
+  "devDependencies": {
+    "@types/react": "^17.0.4",
+    "prettier": "^2.2.1",
+    "typescript": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyunjs/scroll/tree/master/packages/timer"
+  },
+  "dependencies": {
+    "react-will-mount-hook": "^1.0.1"
+  }
+}
