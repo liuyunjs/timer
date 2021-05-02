@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/liuyunjs/scroll/tree/master/packages/timer"
+    "url": "https://github.com/liuyunjs/timer/tree/master"
   },
   "dependencies": {
     "react-will-mount-hook": "^1.0.1"
