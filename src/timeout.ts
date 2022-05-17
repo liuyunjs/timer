@@ -1,3 +1,3 @@
-import { creator } from './timerBase';
+import { creator } from "./timerBase";
 
-export const timeout = () => creator(setTimeout, clearTimeout);
+export const timeout = creator(false)

@@ -1,3 +1,3 @@
-import { creator } from './timerBase';
+import { creator } from "./timerBase";
 
-export const interval = () => creator(setInterval, clearInterval);
+export const interval = creator(true)
