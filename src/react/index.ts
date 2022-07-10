@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import { useWillMount } from 'react-will-mount-hook';
 import { interval } from '../interval';
 import { timeout } from '../timeout';
@@ -6,11 +6,7 @@ import { timeout } from '../timeout';
 const createTimer = (creator: typeof interval) => {
   return () => {
     const timer = useWillMount(creator);
-
-    React.useEffect(() => {
-      return timer.clear;
-    }, [timer.clear]);
-
+    useEffect(() => timer.clear, []);
     return timer;
   };
 };

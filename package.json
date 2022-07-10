@@ -1,6 +1,6 @@
 {
   "name": "@liuyunjs/timer",
-  "version": "1.0.0-beta4",
+  "version": "1.0.0-beta5",
   "description": "定时器的封装",
   "author": "liuyunjs",
   "license": "MIT",
